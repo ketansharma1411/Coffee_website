@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>coffee_contact</title>
+	<link rel="stylesheet" type="text/css" href="style_coffee_contact.css">
+</head>
+<body>
+<nav class="navbar">
+		<ul>
+			<div class="logo">
+			<img src="C:\Users\Asus\OneDrive\Desktop\Ketan_CSS\img\logo_.png">
+		</div>
+			<li><a href="coffee_home.html">Home</a></li>
+			<li><a href="Coffee_about.html">About</a></li>
+			<li><a href="Coffee_menu.html">Menu</a></li>
+			<li><a href="Coffee_product.html">Product</a></li>
+			<li><a href="coffee_review.html">Review</a></li>
+			<li><a href="Coffee_contact.html">Contact</a></li>
+			<li><a href="coffee_blogs.html">Blogs</a></li>
+
+		<div class="cart">
+			<button></button>
+			
+		</div>
+		<div class="search">
+			<button ></button>
+			
+			
+		</div>
+		</ul>
+	</nav>
+	<hr>
+	<h1>CONTACT <span>US</span></h1>
+	<div class="container">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3660.0898863426646!2d75.39993507564239!3d23.457221978871495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDI3JzI2LjAiTiA3NcKwMjQnMDkuMCJF!5e0!3m2!1sen!2sin!4v1697794286158!5m2!1sen!2sin" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	<form id="form">
+		<h2>GET IN TOUCH</h2>
+		<div class="in1">
+		<input id="username" type="text" placeholder="name" width="500px" height="100px">
+		</div>
+		<div class="in2">
+		<input id="email" type="email" placeholder="email" width="500px" height="100px">
+		</div>
+		<div class="in3">
+		<input type="phone" placeholder="number" width="500px" height="100px">
+		</div>
+		<button>Contact Now</button>
+
+		
+
+	</form>
+
+	<script type="text/javascript">
+		var form=document.getElementById('form')
+		form.addEventListener('submit',function (event) {
+			event.preventDefault()
+
+			var username=document.getElementById("username").value
+			var email=document.getElementById("email").value
+			alert("Thanks for Contacting us ",{username},'our team will shortly respond you on ',email,'.')
+		})
+	</script>
+</body>
+</html>

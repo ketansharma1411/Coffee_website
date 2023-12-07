@@ -1,0 +1,210 @@
+*{
+	margin: 0px;
+}
+body{
+	background-color: #0a0808;
+}
+.navbar{
+	background-color: transparent;
+	
+}
+.navbar ul{
+	overflow: auto;
+	margin-left: -32px;
+	padding-left: -5px;
+}
+.navbar li{
+	float: left;
+	list-style: none;
+	margin: 26px 12px;
+}
+.navbar li a{
+	text-decoration: none;
+	font-family: cursive;
+	/* font-style: oblique; */
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	/*this is to add hovering effect on navbar elements*/
+	position: relative;
+}
+
+.navbar li a:before{
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	height: 2px;
+	width: 0;
+	background: #4070f4;
+	border-radius: 50px;
+	transition: width 0.3s ease;
+}
+.navbar li a:hover:before{
+	width: 100%;
+}
+.navbar li a:hover{
+	color: coral;
+}
+hr{
+	border:1px solid rgba(255, 255, 255, 0.18) ;
+}
+
+.logo{
+	float: left;
+	padding: 6px 14px;
+	margin-right: 306px;
+}
+.logo img{
+	width: 100px;
+	height: 65px;
+}
+
+.cart button{
+	float: right;
+	padding: 38px 23px;
+	padding-right: 32px;
+	background-image: url(C:/Users/Asus/OneDrive/Desktop/Ketan_CSS/img/cart.png);
+	background-size: contain;
+	height: 53px;
+	background-repeat: no-repeat;
+	padding-top: 18px;
+	margin: 16px 370px;
+	border: none;
+	padding-bottom: 0px;
+	background-color: transparent;
+	position: absolute;
+	transition: all 0.2s ease;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.cart button:active{
+	transform: scale(1.2);
+}
+
+
+.search button{
+	float: right;
+	padding: 77px 50px;
+	padding-right: 8px;
+	background-image: url(C:/Users/Asus/OneDrive/Desktop/Ketan_CSS/img/search.png);
+	background-size: contain;
+	height: -20px;
+	background-repeat: no-repeat;
+	padding-top: 125px;
+	margin: 16px 303px;
+	border: none;
+	/* padding-bottom: 144px; */
+	background-color: transparent;
+	position: absolute;
+	transition: all 0.2s ease;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.search button:active{
+	transform: scale(1.1);
+}
+
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	color: #7d511ad6;
+	padding: 18px 0px;
+	font-weight: bolder;
+}
+span{
+	color: white;
+}
+.container{
+	width:600;
+	height:450;
+	padding: 5px 32px;
+	border: none;
+}
+.container iframe{
+	border: none;
+	border-radius: 10px;
+}
+
+h2{
+	color: white;
+	margin: 0px 200px;
+	font-size: 51px;
+	padding: 37px 0;
+}
+
+form{
+	margin: -560px 657px;
+	height: 551px;
+	width: 775px;
+	background-color: #110f0f69;
+	border: none;
+	border-radius: 10px;
+}
+.in1 input{
+	height: 51px;
+	margin: -4px 12px;
+	width: 710px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	background-color: transparent;
+	border-radius: 4px;
+	color: white;
+	font-size: 19px;
+	font-style: oblique;
+}
+
+.in2 input{
+	height: 49px;
+	margin: -4px 12px;
+	width: 710px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	background-color: transparent;
+	border-radius: 4px;
+	color: white;
+	font-size: 19px;
+	font-style: oblique;
+	padding: 1px 0px;
+}
+.in3 input{
+	height: 50px;
+	margin: -4px 12px;
+	width: 710px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	background-color: transparent;
+	border-radius: 4px;
+	color: white;
+	font-size: 19px;
+	font-style: oblique;
+}
+
+.in1{
+	width: 661px;
+	height: 55px;
+	margin: 1px 1px;
+}
+.in2{
+	width: 581px;
+	height: 51px;
+	margin: 16px 1px;
+}
+.in3{
+	width: 700px;
+	height: 51px;
+	margin: 1px 1px;
+}
+form button{
+	margin: 51px 286px;
+	height: 51px;
+	width: 158px;
+	background-color: #7d511ad6;
+	font-size: 21px;
+	border: none;
+	color: white;
+	transition: all 0.2s ease;
+	cursor: pointer;
+	border-radius: 2px;
+}
+form button:active{
+	transform: scale(0.96);
+}

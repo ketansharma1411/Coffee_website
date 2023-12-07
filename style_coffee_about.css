@@ -1,0 +1,171 @@
+*{
+	margin: 0px;
+}
+body{
+	background-color: #0a0808;
+}
+.navbar{
+	background-color: transparent;
+}
+.navbar ul{
+	overflow: auto;
+	margin-left: -32px;
+}
+.navbar li{
+	float: left;
+	list-style: none;
+	margin: 26px 12px;
+}
+.navbar li a{
+	text-decoration: none;
+	font-family: cursive;
+	/* font-style: oblique; */
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	/*this is to add hovering effect on navbar elements*/
+	position: relative;
+}
+
+.navbar li a:before{
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	height: 2px;
+	width: 0;
+	background: #4070f4;
+	border-radius: 50px;
+	transition: width 0.3s ease;
+}
+.navbar li a:hover:before{
+	width: 100%;
+}
+.navbar li a:hover{
+	color: coral;
+}
+hr{
+	border:1px solid rgba(255, 255, 255, 0.18) ;
+}
+
+.logo{
+	float: left;
+	padding: 6px 14px;
+	margin-right: 372px;
+}
+.logo img{
+	width: 100px;
+	height: 65px;
+}
+
+.cart button{
+	float: right;
+	padding: 38px 23px;
+	padding-right: 32px;
+	background-image: url(C:/Users/Asus/OneDrive/Desktop/Ketan_CSS/img/cart.png);
+	background-size: contain;
+	height: 53px;
+	background-repeat: no-repeat;
+	padding-top: 18px;
+	margin: 19px 301px;
+	border: none;
+	padding-bottom: 0px;
+	background-color: transparent;
+	position: absolute;
+	transition: all 0.2s ease;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.cart button:active{
+	transform: scale(1.2);
+}
+
+
+.search button{
+	float: right;
+	padding: 77px 49px;
+	padding-right: 8px;
+	background-image: url(C:/Users/Asus/OneDrive/Desktop/Ketan_CSS/img/search.png);
+	background-size: contain;
+	height: -20px;
+	background-repeat: no-repeat;
+	padding-top: 125px;
+	margin: 19px 235px;
+	border: none;
+	/* padding-bottom: 144px; */
+	background-color: transparent;
+	position: absolute;
+	transition: all 0.2s ease;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.search button:active{
+	transform: scale(1.1);
+}
+
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	color: #7d511ad6;
+	padding: 18px 0px;
+	font-weight: bolder;
+}
+span{
+	color: white;
+}
+.container{
+	height: 620px;
+	width: 1460px;
+	background-color: #0a0808;
+	margin-left: 17px;
+	border-radius: 10px;
+}
+.con1{
+	width:720px;
+	height:620px;
+	background-image: url(C:/Users/Asus/OneDrive/Desktop/Ketan_CSS/img/split.jpg);
+	background-size:cover;
+	position: relative;
+
+}
+.con1 img{
+	height: 620px;
+	width: 720px;
+}
+.con2{
+	float: right;
+	width: 730px;
+	height:620px;
+	background-color: #5c5a5a36;
+	position: absolute;
+	margin-top: -617px;
+	margin-left: 720px;
+	border-radius: 0px 10px 10px 0px;
+	color: white;
+}
+.con2 h2{
+	font-size: 44px;
+	font-weight: bolder;
+	padding: 27px 15px;
+}
+.con2 p{
+	font-size: 20px;
+	line-height: 24px;
+	padding: 1px 21px;
+}
+.con2 button{
+	padding: 13px 27px;
+	background-color: #7d511ad6;
+	color: white;
+	margin-left: 24px;
+	margin-top: 64px;
+	transition: all 0.2s ease;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	font-size: larger;
+}
+.con2 button:active{
+	transform: scale(0.96);
+}
